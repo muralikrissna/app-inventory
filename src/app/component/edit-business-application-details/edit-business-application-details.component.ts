@@ -9,7 +9,7 @@ import { BusinessApplicationService } from '../../service/businessapplication.se
 @Component({
   selector: 'app-edit-business-application-details',
   templateUrl: './edit-business-application-details.component.html',
-  styleUrls: ['./edit-business-application-details.component.css', '../../app.component.css']
+  styleUrls: ['./edit-business-application-details.component.css', '../../css/common-styles.css']
 })
 
 export class EditBusinessApplicationDetailsComponent implements OnInit {

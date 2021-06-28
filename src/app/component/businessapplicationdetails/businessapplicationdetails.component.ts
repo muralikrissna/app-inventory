@@ -10,7 +10,7 @@ import { BusinessApplicationService } from '../../service/businessapplication.se
 @Component({
     selector: 'app-businessapplicationdetails',
     templateUrl: './businessapplicationdetails.component.html',
-    styleUrls: ['./businessapplicationdetails.component.css', '../../app.component.css']
+    styleUrls: ['./businessapplicationdetails.component.css', '../../css/common-styles.css']
 })
 
 

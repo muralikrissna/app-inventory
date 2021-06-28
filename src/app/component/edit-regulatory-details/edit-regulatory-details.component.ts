@@ -9,7 +9,7 @@ import { RegulatoryService } from 'src/app/service/regulatory.service';
 @Component({
   selector: 'app-edit-regulatory-details',
   templateUrl: './edit-regulatory-details.component.html',
-  styleUrls: ['./edit-regulatory-details.component.css', '../../app.component.css']
+  styleUrls: ['./edit-regulatory-details.component.css', '../../css/common-styles.css']
 })
 export class EditRegulatoryDetailsComponent implements OnInit {
   i: number = 0;

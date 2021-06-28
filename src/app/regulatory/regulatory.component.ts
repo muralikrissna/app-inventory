@@ -9,7 +9,7 @@ import { RegulatoryService } from '../service/regulatory.service';
 @Component({
   selector: 'app-regulatory',
   templateUrl: './regulatory.component.html',
-  styleUrls: ['./regulatory.component.css', '../app.component.css']
+  styleUrls: ['./regulatory.component.css', '../css/common-styles.css']
 })
 
 export class RegulatoryComponent implements OnInit {

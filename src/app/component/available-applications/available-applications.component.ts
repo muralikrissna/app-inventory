@@ -24,7 +24,7 @@ export interface Application {
 @Component({
   selector: 'app-available-applications',
   templateUrl: './available-applications.component.html',
-  styleUrls: ['./available-applications.component.css', '../../app.component.css'],
+  styleUrls: ['./available-applications.component.css', '../../css/common-styles.css'],
   animations: [
     trigger('detailExpand', [
       state('collapsed', style({ height: '0px', minHeight: '0' })),

@@ -9,7 +9,7 @@ import { VendorPackageService } from 'src/app/service/vendorPackage.service';
 @Component({
   selector: 'app-edit-vendorpackage-details',
   templateUrl: './edit-vendorpackage-details.component.html',
-  styleUrls: ['./edit-vendorpackage-details.component.css', '../../app.component.css']
+  styleUrls: ['./edit-vendorpackage-details.component.css', '../../css/common-styles.css']
 })
 
 export class EditVendorpackageDetailsComponent implements OnInit {

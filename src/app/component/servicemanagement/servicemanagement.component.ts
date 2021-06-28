@@ -9,7 +9,7 @@ import { ServiceManagementService } from 'src/app/service/servicemanagement.serv
 @Component({
   selector: 'app-servicemanagement',
   templateUrl: './servicemanagement.component.html',
-  styleUrls: ['./servicemanagement.component.css', '../../app.component.css']
+  styleUrls: ['./servicemanagement.component.css', '../../css/common-styles.css']
 })
 
 export class ServicemanagementComponent implements OnInit {

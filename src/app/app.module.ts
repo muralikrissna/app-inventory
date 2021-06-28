@@ -55,11 +55,6 @@ import { EditServiceManagementDetailsComponent } from './component/edit-service-
 import { EditBusinessApplicationDetailsComponent } from './component/edit-business-application-details/edit-business-application-details.component';
 import { AvailableDepartmentsDialogBoxComponent } from './component/available-departments/available-departments-dialog-box/available-departments-dialog-box.component';
 
-import { FusionChartsModule } from "angular-fusioncharts";
-import * as FusionCharts from "fusioncharts";
-import * as charts from "fusioncharts/fusioncharts.charts";
-import * as FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
-FusionChartsModule.fcRoot(FusionCharts, charts, FusionTheme);
 @NgModule({
   declarations: [
     AppComponent,
@@ -119,8 +114,7 @@ FusionChartsModule.fcRoot(FusionCharts, charts, FusionTheme);
     MatDialogModule,
     MatPaginatorModule,
     NgxSpinnerModule,
-    HighchartsChartModule,
-    FusionChartsModule
+    HighchartsChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

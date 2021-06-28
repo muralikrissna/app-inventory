@@ -11,7 +11,7 @@ import { ApplicationService } from 'src/app/service/application.service';
 @Component({
   selector: 'app-edit-application-details',
   templateUrl: './edit-application-details.component.html',
-  styleUrls: ['./edit-application-details.component.css', '../../app.component.css']
+  styleUrls: ['./edit-application-details.component.css', '../../css/common-styles.css']
 })
 export class EditApplicationDetailsComponent implements OnInit {
   i: number;

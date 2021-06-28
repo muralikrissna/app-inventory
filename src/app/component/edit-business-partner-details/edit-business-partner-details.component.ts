@@ -10,7 +10,7 @@ import { BusinessPartner } from 'src/app/model/businesspartner.model';
 @Component({
   selector: 'app-edit-business-partner-details',
   templateUrl: './edit-business-partner-details.component.html',
-  styleUrls: ['./edit-business-partner-details.component.css', '../../app.component.css']
+  styleUrls: ['./edit-business-partner-details.component.css', '../../css/common-styles.css']
 })
 export class EditBusinessPartnerDetailsComponent implements OnInit {
   existingApplicationId: number = 0;

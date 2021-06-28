@@ -13,7 +13,7 @@ import { Observable, Subscription, interval } from 'rxjs';
 @Component({
   selector: 'app-available-departments',
   templateUrl: './available-departments.component.html',
-  styleUrls: ['./available-departments.component.css', '../../app.component.css']
+  styleUrls: ['./available-departments.component.css',  '../../css/common-styles.css']
 })
 
 export class AvailableDepartmentsComponent implements OnInit {

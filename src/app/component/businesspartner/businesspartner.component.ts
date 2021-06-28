@@ -10,7 +10,7 @@ import { BusinessPartner } from 'src/app/model/businesspartner.model';
 @Component({
   selector: 'app-businesspartner',
   templateUrl: './businesspartner.component.html',
-  styleUrls: ['./businesspartner.component.css', '../../app.component.css']
+  styleUrls: ['./businesspartner.component.css', '../../css/common-styles.css']
 })
 
 export class BusinesspartnerComponent implements OnInit {

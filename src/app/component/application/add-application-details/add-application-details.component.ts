@@ -12,7 +12,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 @Component({
   selector: 'app-add-application-details',
   templateUrl: './add-application-details.component.html',
-  styleUrls: ['./add-application-details.component.css', '../../../app.component.css']
+  styleUrls: ['./add-application-details.component.css', '../../../css/common-styles.css']
 })
 
 export class AddApplicationDetailsComponent implements OnInit {
