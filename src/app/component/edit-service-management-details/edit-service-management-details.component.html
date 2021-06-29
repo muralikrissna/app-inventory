@@ -111,22 +111,30 @@
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Active Enhancements</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[8].answer" name="input9">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[8].answer" name="input9" pattern="\d+"
+                formControlName="f11" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Closed Enhancements</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[9].answer" name="input10">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[9].answer" name="input10" pattern="\d+"
+                formControlName="f12" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Active Research</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[10].answer" name="input11">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[10].answer" name="input11" pattern="\d+"
+                formControlName="f13" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Closed Research</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[11].answer" name="input12">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[11].answer" name="input12" pattern="\d+"
+                formControlName="f14" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-full-width" [formGroup]="myForm">
@@ -151,17 +159,23 @@
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Level 1</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[14].answer" name="input15">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[14].answer" name="input15" pattern="\d+"
+                formControlName="f15" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Level 2</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[15].answer" name="input16">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[15].answer" name="input16" pattern="\d+"
+                formControlName="f16" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Level 3</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[16].answer" name="input17">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[16].answer" name="input17" pattern="\d+"
+                formControlName="f17" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <br />
@@ -171,17 +185,23 @@
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Level 1</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[17].answer" name="input18">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[17].answer" name="input18" pattern="\d+"
+                formControlName="f18" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Level 2</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[18].answer" name="input19">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[18].answer" name="input19" pattern="\d+"
+                formControlName="f19" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Level 3</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[19].answer" name="input20">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[19].answer" name="input20" pattern="\d+"
+                formControlName="f20" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <br />
@@ -248,12 +268,16 @@
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Active</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[25].answer" name="input26">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[25].answer" name="input26" pattern="\d+"
+                formControlName="f21" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Closed</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[26].answer" name="input27">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[26].answer" name="input27" pattern="\d+"
+                formControlName="f22" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
         <br />
 
@@ -263,12 +287,16 @@
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Active</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[27].answer" name="input28">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[27].answer" name="input28" pattern="\d+"
+                formControlName="f23" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Closed</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[28].answer" name="input29">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[28].answer" name="input29" pattern="\d+"
+                formControlName="f24" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
         <br />
 
@@ -277,12 +305,16 @@
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Active</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[29].answer" name="input30">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[29].answer" name="input30" pattern="\d+"
+                formControlName="f25" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-four-items-width">
             <mat-label>Closed</mat-label>
-            <input matInput [(ngModel)]="serviceManagementsRetrieved[30].answer" name="input31">
+            <input matInput [(ngModel)]="serviceManagementsRetrieved[30].answer" name="input31" pattern="\d+"
+                formControlName="f26" (keypress)="onlyNumbers($event)">
+            <mat-hint>Numbers only allowed</mat-hint>
         </mat-form-field>
 
         <mat-form-field class="sm-full-width">

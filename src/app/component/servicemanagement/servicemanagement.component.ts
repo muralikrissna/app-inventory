@@ -34,7 +34,23 @@ export class ServicemanagementComponent implements OnInit {
       f7: new FormControl("", [Validators.pattern(/\d/)]),
       f8: new FormControl("", [Validators.pattern(/\d/)]),
       f9: new FormControl("", [Validators.pattern(/\d/)]),
-      f10: new FormControl("", [Validators.pattern(/\d/)])
+      f10: new FormControl("", [Validators.pattern(/\d/)]),
+      f11: new FormControl("", [Validators.pattern(/\d/)]),
+      f12: new FormControl("", [Validators.pattern(/\d/)]),
+      f13: new FormControl("", [Validators.pattern(/\d/)]),
+      f14: new FormControl("", [Validators.pattern(/\d/)]),
+      f15: new FormControl("", [Validators.pattern(/\d/)]),
+      f16: new FormControl("", [Validators.pattern(/\d/)]),
+      f17: new FormControl("", [Validators.pattern(/\d/)]),
+      f18: new FormControl("", [Validators.pattern(/\d/)]),
+      f19: new FormControl("", [Validators.pattern(/\d/)]),
+      f20: new FormControl("", [Validators.pattern(/\d/)]),
+      f21: new FormControl("", [Validators.pattern(/\d/)]),
+      f22: new FormControl("", [Validators.pattern(/\d/)]),
+      f23: new FormControl("", [Validators.pattern(/\d/)]),
+      f24: new FormControl("", [Validators.pattern(/\d/)]),
+      f25: new FormControl("", [Validators.pattern(/\d/)]),
+      f26: new FormControl("", [Validators.pattern(/\d/)])
     });
 
   }

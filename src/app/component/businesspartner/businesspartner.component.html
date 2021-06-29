@@ -24,8 +24,8 @@
     </mat-form-field>
   </form> <br />
   <div class="bp-button-row">
-    <button mat-raised-button color="primary" [disabled]="!addBusFormGroup.valid || checkAppId()" mat-stroked-button
-      (click)="check() ? openDialog() : save()" [disabled]="checkAppId()">Save</button> &nbsp;
+    <button mat-raised-button color="primary" mat-stroked-button (click)="check() ? openDialog() : save()"
+      [disabled]="!addBusFormGroup.valid || checkAppId()">Save</button> &nbsp;
     <button mat-raised-button color="primary" (click)="cancel()">Cancel</button>
   </div>
   <div class="overlay" *ngIf="showSpinner">
