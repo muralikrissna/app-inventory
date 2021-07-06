@@ -21,7 +21,7 @@
     "@angular/platform-browser": "~11.2.1",
     "@angular/platform-browser-dynamic": "~11.2.1",
     "@angular/router": "~11.2.1",
-    "angular-fusioncharts": "^3.0.4",
+    "angular-fusioncharts": "3.0.4",
     "fusioncharts": "^3.17.0",
     "highcharts": "^9.1.0",
     "highcharts-angular": "^2.10.0",
