@@ -18,13 +18,13 @@ export class DashboardComponent implements OnInit {
          xaxisminvalue: "0",
          xaxismaxvalue: "1000",
          yaxisminvalue: "0",
-         yaxismaxvalue: "600",
+         yaxismaxvalue: "400",
          xaxisname: "Business Total",
          yaxisname: "Business Value",
          plottooltext: "Application ID : $name,Business Total: $xvalue,Business Value: $yvalue,Agility: $zvalue",
          drawquadrant: "1",
          quadrantxval: "500",
-         quadrantyval: "300",
+         quadrantyval: "200",
          quadrantlinealpha: "50",
          quadrantlinethickness: "2"
       },
@@ -98,7 +98,7 @@ export class DashboardComponent implements OnInit {
 
 
    width = "100%";
-   height = "400";
+   height = "500";
    type = "bubble";
    dataFormat = "json";
    dataSource = this.data;
